@@ -1,0 +1,73 @@
+*{
+    margin: 0 ;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+   
+}
+.box{
+    display: flex;
+    margin: auto;
+    width: 1400px;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+   
+}
+.cards{
+    width: 300px;
+    height: 200px;
+    border: 1px solid red;
+    border-radius: 20px;
+    position: relative;
+    top: 200px;
+    overflow: hidden; 
+    transition: 0.5s;
+}
+.cards:hover{
+    border: 1px solid var(--main-bg-color);
+}
+
+.cards img{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;transition: 0.2s;
+}
+.cards:hover img{
+    filter: blur(4px);
+}
+.ev{
+    width: 290px;
+    height: 190px;
+    border: 1px solid red;
+    position: absolute;
+    bottom: 5px;
+    border-radius: 20px;
+    left: 3px;
+}
+.ev:hover{
+    border: 1px solid var(--main-bg-color);
+}
+.ev p{
+    font-size: 36px;
+    color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 130px 110px;
+    transition: 0.2s;
+    
+}
+.ev:hover p{
+ margin: 65px 100px;
+}
+h3{
+    font-size: 10px;
+    color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    transition: 0.2s;
+    position: relative;
+    top: -50px;
+}
+
+
+
